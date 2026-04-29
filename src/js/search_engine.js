@@ -43,7 +43,9 @@ document.addEventListener("keydown", (e) => {
 searchInput.addEventListener("keydown", (e) => {
 	if (e.key === "Enter"){
 		const q = searchInput.value.trim();
-		if (q) window.location.href = activeEngine + encodeURIComponent(q);
+		if (q){
+			window.open(activeEngine + encodeURIComponent(q), "_blank", "noopener,noreferrer");
+		}
 	}
 });
 
