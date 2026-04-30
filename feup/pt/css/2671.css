@@ -1,0 +1,69 @@
+div#cabecalho-conteudo-2 {
+    display: flex;
+    align-items: center;
+}
+
+div#cabecalho-conteudo-2 div.autenticacao {
+    display: flex;
+    align-items: center;
+}
+
+div#cabecalho-conteudo-2 div.autenticacao a.outras-autenticacoes{
+    padding:0 .4em;
+    color:white;
+    border-left: 1px solid rgb(255, 255, 255);
+}
+
+div#cabecalho-conteudo-2 form {
+    display: inline-block;
+}
+
+div#cabecalho-conteudo-2 span.ajuda-contextual,
+div#cabecalho-conteudo-2 a.ajuda-contextual {
+    padding: inherit;
+    padding:0 .4em;
+    border-left: 1px solid rgb(255,255,255);
+}
+
+div#cabecalho-conteudo-2 span.idioma,
+div#cabecalho-conteudo-2 a.idioma  {
+    padding: inherit;
+    padding: 0 .4em;
+}
+
+div#cabecalho-conteudo-2 div.autenticado span.ajuda-contextual,
+div#cabecalho-conteudo-2 div.autenticado span.idioma {
+   rgba(255, 255,255, 0.5);
+}
+
+div#cabecalho-conteudo-2 div.autenticacao a.ajuda-contextual:visited,
+div#cabecalho-conteudo-2 div.autenticacao a.ajuda-contextual {
+   text-decoration: none;
+}
+
+div#cabecalho-conteudo-2 div.autenticado a.ajuda-contextual,
+div#cabecalho-conteudo-2 div.autenticado span.idioma,
+div#cabecalho-conteudo-2 div.autenticado a.idioma.en:link,
+div#cabecalho-conteudo-2 div.autenticado a.idioma.pt:link,
+div#cabecalho-conteudo-2 div.autenticado a.idioma.en:visited,
+div#cabecalho-conteudo-2 div.autenticado a.idioma.pt:visited {
+   color:white;
+}
+
+div#cabecalho-conteudo-2 div.autenticado a.ajuda-contextual:active,
+div#cabecalho-conteudo-2 div.autenticado a.idioma.en:active,
+div#cabecalho-conteudo-2 div.autenticado a.idioma.pt:active,
+div#cabecalho-conteudo-2 div.autenticado a.idioma.en:hover,
+div#cabecalho-conteudo-2 div.autenticado a.idioma.pt:hover {
+   color:#b38300;
+}
+
+div#cabecalho-conteudo-2 div.autenticado a.idioma:hover,
+div#cabecalho-conteudo-2 div.autenticado a.ajuda-contextual:hover {
+text-decoration: underline;
+}
+
+form#autenticacao-local div.form-botoes, p.recuperar-senha {
+text-align: left;
+}
+
