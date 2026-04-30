@@ -55,7 +55,7 @@
   </div>
 </a><div id="cabecalho-conteudo-1">
 <div class="logotipo-alternativo" aria-hidden="true">
-  <a href="web_page.Inicial" title="Ligação à página Inicial"><img src="imagens/LogotipoSI" alt="Logótipo" title="Logótipo" id="logotipo" width="200" height="80"></a>
+  <a href="web_page.Inicial" title="Ligação à página Inicial"><img src="feup/pt/imagens/LogotipoSI.png" alt="Logótipo" title="Logótipo" id="logotipo" width="200" height="80"></a>
 </div></div><div id="cabecalho-conteudo-2">
 <a href="/feup/en/FEST_GERAL.CURSOS_LIST?pv_num_unico=202307731" class="idioma en" title="This Page in English">
 English
@@ -382,42 +382,35 @@ add_atalho(250907,"pv_num_unico=202307731","Miguel Dinis Marques","Adicionar Pá
 -->
 </script>
 <div class="container-fluid">
-<div class="row">
-<div class="col-md-2 col-sm-3 col-xs-12">
-<div class="estudante-foto"><img src="728234.jpg"></div>
-</div>
-<div  class="col-md-10 col-sm-9 col-xs-12">
-<div  class="estudante-info-nome">
-Miguel Dinis Marques
-</div>
-<div  class="estudante-info-numero">
-<a href="fest_geral.cursos_list?pv_num_unico=202307731">202307731</a>
-</div>
-<div class="estudante-info-email">
-<script type="text/javascript" src="/lib/jquery-ui/jquery-ui.min.js"></script>
-<link rel="stylesheet" type="text/css" href="lib/jquery-ui/jquery-ui.css">
-<div class="email-institucional">
-<label>Email institucional</label>
-<span>
-<a href="" onclick="secure='@'; this.href='ma'+'i'+'lto'+':up202307731'+secure+'edu.fe.up.pt'">up202307731<img src="feup/pt/imagens/Arroba.gif" alt="@"  title=""  style="vertical-align: middle;border-width:0;" width="13" height="9">edu.fe.up.pt</a>
-</span>
-<img src="feup/pt/imagens/Informa.png" alt="Informação sobre o email institucional"  title="Informação sobre o email institucional"  id="email-institucional-info" class="cursormao" width="16" height="14">
-</div>
-<div id="email-institucional-info-cont" style="display:none;">
-Este é o seu email institucional na U.Porto. Muitos estudantes da Universidade dispõem de vários endereços de correio eletrónico, na mesma ou em diferentes faculdades da Universidade. Todavia, por razões técnicas, é necessário dispor de um endereço de correio eletrónico transversal na U.Porto, que funciona como e-mail institucional na Universidade.
-</div>
+  <div style="display:flex; flex-direction:column;">
+    
+    <div class="estudante-foto">
+      <img src="728234.jpg" alt="foto">
+    </div>
 
-                    <script type="text/javascript">
-                        $("#email-institucional-info").tooltip({
-                            content: function() {
-                                return $("#email-institucional-info-cont").html();
-                            }
-                        });
-                    </script>
-                    
-</div>
-</div>
-</div>
+    <div class="col-md-10 col-sm-9 col-xs-12">
+      
+      <div class="estudante-info-nome">
+        Miguel Dinis Marques
+      </div>
+
+      <div class="estudante-info-numero">
+        <a href="fest_geral.cursos_list?pv_num_unico=202307731">202307731</a>
+      </div>
+
+      <div class="estudante-info-email">
+        <label>Email institucional</label>
+        <span>
+          <a href="mailto:up202307731@edu.fe.up.pt">
+            <i class="fa-solid fa-envelope"></i>
+            up202307731@edu.fe.up.pt
+          </a>
+        </span>
+      </div>
+
+    </div>
+
+  </div>
 </div>
 <div class="estudantes-caixa-lista-cursos">
 <div>
