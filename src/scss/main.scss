@@ -1,0 +1,109 @@
+
+//Change default varaibles here (before import)
+$font-family-sans-serif: "Space Mono", monospace;
+
+//Import
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+//Then add aditional custom code here
+* {
+        font-family: "Space Mono"; 
+}
+
+body {
+
+  background-image: url("../assets/topography.svg");
+  background-color: #15191d; 
+  color: #F3F3F3;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+#date {
+  font-family: "Montserrat";
+  margin-top: 5%;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 17%;
+  font-family: "Montserrat";
+}
+
+
+.search-container {
+        background: #2b2a32;
+        padding: 16px 22px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        max-width: 100%;
+        width: 100%;
+        margin-top: 3%;
+}
+
+.search-container input {
+        width: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 1.2rem;
+        color: #e5e5e5;
+}
+
+.search-icon {
+        font-size: 1.3rem;
+        margin-right: 12px;
+        opacity: 0.7;
+}
+
+.provider img {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+}
+
+.provider{
+        background: #2b2a32;
+        padding: 7px 10px;
+        margin: 0 5px; 
+        border-radius: 12px;
+}
+
+.provider span {
+        font-size: 0.75rem;
+        color: #a3a3a3;
+}
+
+.header {
+  font-size: 2.5rem;
+  margin-top: 40%;
+  color: #65af5a;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+li {
+   list-style:none;
+}
+
+#links a {
+  font-size: 1.3rem;
+  color: #e5e5e5;  
+  opacity: 0.54;
+  padding: 0px 15px;
+}
+
+#links a:hover {
+  font-style: italic;
+  color: #3ba534; 
+}
+
+
